@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: wheat;
     text-align: center;
 }
 
@@ -47,12 +47,29 @@ button {
     border-radius: 8;
 }
 
+.main-flag {
+    width: 180px;
+    height: auto;
+}
+
 .border-grid {
     display: grid; /* or display: flex */
     /* Additional layout properties */
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 15px;
     margin: 20px;
+}
+.border-grid div {
+    background: wheat;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.border-grid img {
+    width: 80%;
+    height: auto;
 }
 .error {
     color: red;
