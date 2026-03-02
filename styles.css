@@ -1,1 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+}
+
+.search-container {
+    margin: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.spinner {
+    /* Your styling */
+    
+    animation: spin 1s linear infinite; /* Required */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
